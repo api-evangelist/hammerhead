@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of /.well-known/ on hammerhead.io
+host: https://hammerhead.io
+notes: >-
+  hammerhead.io is served on Shopify. The OIDC / OAuth authorization-server
+  discovery documents are genuine (Shopify Customer Account API for
+  account.hammerhead.io) and returned 200; they are captured verbatim. The
+  storefront also advertises a customer-account MCP API scope
+  (customer-account-mcp-api:full). security.txt, api-catalog and ai-plugin.json
+  are not published.
+documents:
+- path: /.well-known/openid-configuration
+  status: 200
+  file: hammerhead-openid-configuration.json
+- path: /.well-known/oauth-authorization-server
+  status: 200
+  file: hammerhead-oauth-authorization-server.json
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404

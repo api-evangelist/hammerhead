@@ -1,0 +1,24 @@
+generated: '2026-07-19'
+method: searched
+source: https://shop.sram.com/blogs/change-logs/
+notes: >-
+  Hammerhead publishes a dated "Software Release Notes" / change-logs blog for
+  Karoo OS builds (now hosted under shop.sram.com after the SRAM transition;
+  formerly hammerhead.io/blogs/change-logs). A separate EU changelog exists at
+  eu.hammerhead.io/blogs/change-logs. Versions below are captured from the live
+  changelog index; exact publish dates were not reliably parseable, left null
+  rather than fabricated.
+scheme: build-version
+subject: Karoo OS (cycling computer firmware)
+url: https://shop.sram.com/blogs/change-logs/
+eu_url: https://www.eu.hammerhead.io/blogs/change-logs
+entries:
+- version: 1.618.2377
+  date: null
+- version: 1.616.2362
+  date: null
+  region: EU
+- version: 1.600.2303
+  date: null
+- version: 1.583.2239
+  date: null

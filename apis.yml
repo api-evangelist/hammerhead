@@ -1,7 +1,27 @@
 aid: hammerhead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hammerhead.png
 name: Hammerhead
-description: Hammerhead is a company surfaced as a portfolio company of techstars and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hammerhead is a cycling technology company (now part of SRAM) best known for
+  the Karoo GPS cycling computer, a premium Android-based device for recording
+  and displaying ride data, routes, structured workouts, and Flight Attendant
+  performance. Its ecosystem includes the web Dashboard (dashboard.hammerhead.io)
+  and a Companion mobile app that bridge ride data between rider, device, and
+  third parties. Hammerhead runs one of the more open developer platforms in the
+  category: a public API that lets connected third parties sync routes and
+  workouts, and the karoo-ext Android/Kotlin Extensions SDK (io.hammerhead:karoo-ext,
+  Apache-2.0) that lets developers build on-device extensions for Karoo and Karoo 2.
 url: https://raw.githubusercontent.com/api-evangelist/hammerhead/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Cycling
+- GPS Cycling Computer
+- Sports Technology
+- Wearables
+- Android SDK
+- Developer Platform
+- Navigation
+- Hardware
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,38 @@ maintainers:
 common:
 - type: Website
   url: https://hammerhead.io/
+- type: DeveloperPortal
+  url: https://shop.sram.com/pages/hammerhead-developer-platform
+- type: Documentation
+  url: https://hammerheadnav.github.io/karoo-ext/index.html
+- type: GettingStarted
+  url: https://support.hammerhead.io/hc/en-us/articles/31150180125083-FAQ-Hammerhead-Extensions
+- type: GitHubOrganization
+  url: https://github.com/hammerheadnav
+- type: HelpCenter
+  url: https://support.hammerhead.io/hc/en-us
+- type: Blog
+  url: https://www.hammerhead.io/blogs/change-logs
+- type: SignUp
+  url: https://dashboard.hammerhead.io/
+- type: TermsOfService
+  url: https://www.sram.com/en/company/legal
+- type: PrivacyPolicy
+  url: https://www.sram.com/en/company/legal
+- type: Packages
+  url: packages/hammerhead-packages.yml
+- type: SDKs
+  url: packages/hammerhead-packages.yml
+- type: ChangeLog
+  url: changelog/hammerhead-changelog.yml
+- type: WellKnown
+  url: well-known/hammerhead-well-known.yml
+- type: DomainSecurity
+  url: security/hammerhead-domain-security.yml
+- type: LLMsTxt
+  url: llms/hammerhead-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

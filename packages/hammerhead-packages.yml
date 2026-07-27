@@ -1,0 +1,30 @@
+generated: '2026-07-19'
+method: searched
+source: https://github.com/hammerheadnav/karoo-ext
+notes: >-
+  Hammerhead's first-party developer surface is the Karoo Extensions SDK
+  (karoo-ext), an Android/Kotlin library for building extensions that run on
+  Karoo cycling computers. It is published to GitHub Packages (Maven registry,
+  which always requires authentication even for public artifacts) under the
+  io.hammerhead group. Docs at https://hammerheadnav.github.io/karoo-ext/.
+  karoo-sdk is the archived predecessor.
+packages:
+- language: kotlin
+  registry: github-packages-maven
+  name: io.hammerhead:karoo-ext
+  version: 1.1.9
+  url: https://github.com/hammerheadnav/karoo-ext/packages/2175616
+  repository: https://maven.pkg.github.com/hammerheadnav/karoo-ext
+  install: 'implementation("io.hammerhead:karoo-ext:1.1.9")'
+  docs: https://hammerheadnav.github.io/karoo-ext/index.html
+  license: Apache-2.0
+  official: true
+- language: kotlin
+  registry: jitpack
+  name: karoo-sdk
+  url: https://github.com/hammerheadnav/karoo-sdk
+  docs: https://hammerheadnav.github.io/karoo-sdk/
+  license: Apache-2.0
+  official: true
+  status: archived
+  notes: Archived predecessor to karoo-ext; superseded on Karoo and Karoo 2 devices.
